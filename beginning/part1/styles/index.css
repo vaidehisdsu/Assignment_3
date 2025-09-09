@@ -1,0 +1,67 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #EDEDED;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #17B2E2;
+    border-bottom: 1px solid #929CA4;
+    padding-bottom: 0.25em;
+  }
+
+p:first-of-type:first-letter
+{
+    font-size: 30px;
+}
+
+.solution {
+    color: #CC1C0D;
+    font-weight: bold;
+}
+
+#testimonial1, #testimonial2
+{
+    font-style: italic;
+    margin-left: 50px;
+}
+
+a[href^="http"][href="http://www.dorknozzle.com"]:link
+{
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a[href^="http"][href="http://www.dorknozzle.com"]:hover
+{
+    color: #CC1C0D;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a[href^="http"][href="http://www.dorknozzle.com"]:active
+{
+    color: #FFFF00;
+}
+
+a[href^="http"][href="http://www.dorknozzle.com"]:visited
+{
+    color: #037D01;
+}
+
+li
+{
+    list-style: none;
+}
+
+ul li:first-child
+{
+    color: #0000FF;
+}
+
+ul li:last-child
+{
+    color: #FF0000;
+}
